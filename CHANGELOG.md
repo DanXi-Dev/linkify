@@ -1,3 +1,17 @@
+## [5.0.0] - 2023-05-15
+
+- Upgrade to Dart 3
+- Merge Add Origin Text ([#47](https://github.com/Cretezy/linkify/pull/47))
+- Merge Support UserTagLinkifier on Safari ([#48](https://github.com/Cretezy/linkify/pull/48))
+- Merge Add quotation marks to loose url regex ([#50](https://github.com/Cretezy/linkify/pull/50))
+- Merge Remove `pubspec.lock` from `.gitignore` ([#51](https://github.com/Cretezy/linkify/pull/51))
+- Merge Support UserTagLinkifier on Safari ([#52](https://github.com/Cretezy/linkify/pull/52))
+
+## [4.1.0] - 2021-08-02
+
+- Fix loose URL not being parsed if the text have a non loose URL ([#42](https://github.com/Cretezy/linkify/pull/42), thanks [@EsteveAguilera](https://github.com/EsteveAguilera)!)
+- User Tagging Linkifier ([#38](https://github.com/Cretezy/linkify/pull/38), thanks [@HSCOGT](https://github.com/HSCOGT)!)
+
 ## [4.0.0] - 2021-03-04
 
 - Add null-safety support. Now required Dart >=2.12
@@ -9,6 +23,7 @@
 - Update loose URL regex to make it more reliable (thanks for [the suggestion](https://github.com/Cretezy/linkify/issues/19#issuecomment-640587130) [@olestole](https://github.com/olestole)!)
 
 **Major version has been bumped**:
+
 - Minimum Dart version was upgraded
 - Loose URL regex update may change behavior for some use-cases. Please open an issue if you find more issues!
 - Non-loose will now parse URLs starting with `www.`, changing behavior
